@@ -8,11 +8,11 @@ Steps to reproduce :
 git clone git@github.com:alexadrien/pulumi-postgresql-bug.git
 cd pulumi-postgresql-bug
 pulumi install
-pulumi up
+pulumi up --yes
 ```
 
 Clean up after test : 
 ```shell
-pulumi down
+pulumi down --yes
 pulumi stack rm dev
 ```
