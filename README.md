@@ -8,7 +8,7 @@ Steps to reproduce :
 git clone git@github.com:alexadrien/pulumi-postgresql-bug.git
 cd pulumi-postgresql-bug
 pulumi install
-pulumi up --yes --stack dev
+pulumi up # Answer yes to questions
 ```
 
 Clean up after test : 
