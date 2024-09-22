@@ -15,4 +15,5 @@ Clean up after test :
 ```shell
 pulumi down --yes
 pulumi stack rm dev
+cd ../ && rm -rf pulumi-postgresql-bug
 ```
